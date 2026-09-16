@@ -32,3 +32,10 @@ Not implemented yet:
 - Reading/writing data
 - RESP protocol
 - Redis commands
+
+### Stage 2 -- TCP Accept 
+
+* implemented Accept
+* Application started accepting connections
+* Till only one connection is accepted
+* Gradully writing it eventually build the event loop and trying to apply threading
